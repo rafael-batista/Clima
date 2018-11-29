@@ -6,9 +6,6 @@ ClimaTempo::ClimaTempo(QWidget *parent) :
     ui(new Ui::ClimaTempo)
 {
     ui->setupUi(this);
-//    valor = 0;
-//    parsed_data = "";
-//    serialBuffer = "";
 
     abrirConexao();
     select();
